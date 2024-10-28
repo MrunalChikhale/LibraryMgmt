@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Library</title>
+<style>
+form{
+width:100%;
+}
+body {
+    background-image:url("https://img.freepik.com/premium-photo/blurred-interior-public-library-with-books-bookshelves-education-book-s-day_32485-939.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.mycode {
+	display: inline;
+}
+.myflex {
+	color: white;
+	text-align: center;
+}
+.newclass {
+	padding: 10px;
+}
+.logo {
+	width: 100%;
+	display: flex;
+	height: 60PX;
+	background-color: #123456;
+}
+
+.headerdiv{
+ width:50%;
+ height:50px;
+color: white;
+margin-left: 10px;
+font-family: math;
+}
+.font {
+	display: flex;
+	width: 100%;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+		'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-size: 100%;
+	color: blue;
+	justify-content: center;
+}
+.book{
+display:flex;
+ color:white;
+ width:100%;
+ justify-content:flex-end;
+ font-size: 20px;
+
+ 
+}
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 2px solid white;
+    width: 100px;
+    font-family: math;
+    text-align: center;
+
+} 
+.link{
+	text-decoration:none;
+	color:white;
+}
+
+.mainPage{
+	height:91vh;
+	display:flex;
+}
+.info{
+	width: 600px;
+	height:550px;
+	margin:90px auto 0;
+	background:rgba(0,0,0,0.1);
+	border:3px solod black;
+	border-radius:70px 0 70px 0;
+    color: #123456;
+}
+
+.myflex{
+      font-family: Calisto mt;
+      font-size: 60px;
+      color: #123456; 
+       margin-left: -36px;     
+    }
+.box{
+        background-color: #fffafa;
+        border-color:black;
+        height: 35px;
+        border-radius: 4px;
+        width: 55%;
+      }
+ .btn {
+		background-color: #123456;
+        color: white;
+        padding: 8px 208px;
+        border-radius: 4px;
+        border-color: #123456;
+        font-size: large;
+        cursor: pointer;
+        margin-inline: 77px;
+    margin-top: 25px;
+}
+
+label {
+            font-family: Georgia, "Times New Roman", Times, serif;
+            font-size: 20px;
+            color: black;
+            height: 20px;
+            width: 200px;
+            margin-top: 10px;  
+            clear: both;
+            text-align: left;
+            float: left;
+           margin-left: 75px;
+            margin-right: -71px;
+        }
+ .page{
+        font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-size: 32px;
+      color: #123456;
+      margin-left: 13%;
+      }
+</style>
+<body>
+	  <div class="mainPage">
+	  	<div class="info ">
+	  	  <h2 class="myflex"> Aksharvaat</h2>
+	  	  	  <h3 class="page"> Log in</h3>
+           <form action="login" method ="post">
+             <label for="name">Username : </label><input class ="box" type="email" name="username" placeholder="Enter Username here..." required><br><br><br>
+              <label for="password">Password : </label><input class ="box" type="password" name="password" placeholder="Enter Password here..." required><br><br><br>         
+            <input class="btn" type="submit" value="Login">
+           </form>
+	  	</div>
+	  </div>
+</body>
+</html>

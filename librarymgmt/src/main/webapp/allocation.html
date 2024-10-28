@@ -1,0 +1,228 @@
+<!DOCTYPE>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Book Details</title>
+<style>
+body {
+	background-color: white;
+	background-size: cover;
+	padding:0;
+	margin:0;
+}
+
+form {
+	width: 700px;	
+	text-align: left;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 50px;
+
+}
+
+fieldset{
+	border:solid;
+}
+legend{
+    margin-left: auto;
+    margin-right: auto;
+}
+.size {
+	background-color:white;
+	padding: 5px 25px;
+	border-radius: 4px;
+}
+
+  label {
+	font-family: serif;
+	font-size: 23px;
+	color:black;
+	width: 250px;
+	text-align: left;
+	float: left;
+	margin-right: 15px;
+}
+
+.btnn1 {
+	background-color: white;
+	justify-content: center;
+	margin-left:30px;
+}
+
+.btnn2 {
+	margin-left: 121px;
+	margin: center;
+	margin-bottom: px;
+	width: 84px;
+	height: 45px;
+	background: transparent;
+	border: none;
+	color: black ;
+	font-size: 14px;
+	font-weight: 700;
+	margin-left: 50%;
+	margin-top: 1px;
+}
+
+.btn {
+	cursor: pointer;
+	border-color:black ;
+	background-color: white;
+	height: 30px;
+	width: 90px;
+	font-size: larger;
+	color: black;
+	margin-left:10px;
+	border-radius: 5px;
+}
+
+.btn1 {
+	cursor: pointer;
+	border-color:black ;
+	background-color: white;
+	height: 30px;
+	width: 90px;
+	font-size: larger;
+	color: black;
+	margin-left:135px;
+	border-radius: 5px;
+}
+
+.size1 {
+	width: 57%;
+	height: 40px;
+	border-color:black;
+}
+
+.size2 {
+	width: 57%;
+	height: 40px;
+	border-color:black;
+}
+
+.size3 {
+	width: 57%;
+	height: 40px;
+	border-color:black;
+}
+
+.size4 {
+	width: 57%;
+	height: 40px;
+	border-color:black;
+}
+
+.size5 {
+	width: 57%;
+	height: 40px;
+	border-color:black;
+}
+
+.logo {
+	width: 100%;
+	display: flex;
+	height: 60PX;
+	background-color: #123456
+ }
+ .book{
+display:flex;
+ color:white;
+ width:100%;
+ justify-content:flex-end;
+ font-size: 20px;
+ 
+}
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 2px solid white;
+    width: 100px;
+    font-family: math;
+    text-align: center;
+    color:white;
+
+} 
+.headerdiv{
+ width:50%;
+ height:50px;
+color: white;
+margin-left: 10px;
+font-family: math;
+}
+.link{	
+padding:10px;
+font-size:20px;
+color: white;
+}
+.link1{
+padding:10px;
+color:black;
+}
+
+a{
+	text-decoration: none;
+	color: #123456;
+}
+.heading{
+ margin:0;
+ padding-left:11px;
+}
+
+</style>
+<body>
+       <div class="logo">
+       <div >
+	      <img src="library-logo.png" width="60px" height="60px">
+	     </div>
+			<div class="headerdiv">
+					<h2>Aksharvaat</h2>
+			</div>
+			<div class=book>
+				<div class=head ><a href="List" class="link">Books</a></div>
+				<div class=head><a href="List1" class="link">User</a></div>
+				<div class=head><a href="allocationList" class="link">Allocation</a></div>
+				<div class=head><a href="login.html" class="link">Logout</a></div>
+			</div>			
+     </div>
+           
+<div class=link1>
+	<a href="/librarymgmt/home.html">HOME  </a>/ ALLOCATION LIST
+</div>			
+
+
+<h3 class="heading">ALLOCATION LIST</h3>
+	<div>
+		
+		<form action="save" method="post">
+			<fieldset>
+					<legend><h2>Book Details</h2> </legend>
+				<h3>
+					<label for="User Name">User 
+						Name: </label> <input class="size2" type="text" name="User Name"
+						placeholder=" Enter User Name" required> <br> <br>
+					<label for="Book Name">Book Name: </label> <input class="size3"
+						type="text" name="Book Name" placeholder=" Enter Book Name"
+						required> <br> <br> <label for="Issue Date">Issue Date:
+					</label> <input class="size4" type="date" name="Issue Date"
+						placeholder=" Enter Issue Date" required> <br> <br>
+						<label for="Return Date">Return Date:
+					</label> <input class="size5" type="date" name="Return Date"
+						placeholder=" Enter Return Date" required> <br> <br>
+				</h3>
+				<hr>
+				<br>
+				<pre class="btnn1">
+                                                       
+					<input type="submit" value="submit"	class="btn1"><input type="reset" value="reset" class="btn">
+                 </pre>
+			</fieldset>
+		</form>
+
+	</div>
+
+</body>
+
+</html>

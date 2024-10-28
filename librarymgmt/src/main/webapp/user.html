@@ -1,0 +1,212 @@
+<!DOCTYPE>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>User Details</title>
+<style>
+body {
+	background-color: white;
+	background-size: cover;
+	padding:0;
+	margin:0;
+}
+form {
+    font-size:19px;
+	width: 717px;	
+	text-align: left;
+	margin-right: auto;
+	margin-left: auto;
+
+
+}
+fieldset{
+	border:solid;
+	height: 500px;
+}
+legend{
+    margin-left: auto;
+    margin-right: auto;
+}
+.size {
+	background-color:white;
+	padding: 5px 25px;
+	border-radius: 4px;
+}
+label {
+	font-family: serif;
+	font-size: 30px;
+	color:black;
+	width: 250px;
+	text-align: left;
+	float: left;
+	margin-right: 20px;
+}
+.btnn1 {
+	background-color:white ;
+	justify-content: center;
+	margin-left:30px;
+}
+.btnn2 {
+	margin-left: 121px;
+	margin: center;
+	margin-bottom: px;
+	width: 84px;
+	height: 45px;
+	background: transparent;
+	border: none;
+	color: black ;
+	font-size: 14px;
+	font-weight: 700;
+	margin-left: 50%;
+	margin-top: 1px;
+}
+.btn {
+	cursor: pointer;
+	border-color:black ;
+	background-color: transparent black;
+	height: 30px;
+	width: 90px;
+	font-size: larger;
+	color: black;
+	margin-left:12px;
+	border-radius: 5px;
+}
+.btn1 {
+	cursor: pointer;
+	border-color:black ;
+	background-color: transparent black;
+	height: 30px;
+	width: 90px;
+	font-size: larger;
+	color: black;
+	margin-left:11px;
+	border-radius: 5px;
+}
+.size1 {
+	width: 57%;
+	height: 40px;
+	border-color:black;
+	text-align: left;
+}
+.size2 {
+	width: 57%;
+	height: 40px;
+	border-color:black;
+    margin-left: 141;
+}
+.size3 {
+	width: 57%;
+	height: 40px;
+	border-color:black;
+	margin-left:209px;
+}
+.size4 {
+	width: 57%;
+	height: 40px;
+	border-color:black;
+	margin-left: 154px;
+}
+.size5 {
+    width: 57%;
+	height: 40px;
+	border-color:black;
+	margin-left: 169px;
+}
+.logo {
+	width: 100%;
+	display: flex;
+	height: 60PX;
+	background-color: #123456;
+	position: fixed;
+}
+ .book {
+display:flex;
+ color:white;
+ width:100%;
+ justify-content:flex-end;
+ font-size: 20px;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 2px solid white;
+    width: 100px;
+    font-family: math;
+    text-align: center;
+    color:white;
+} 
+.headerdiv {
+ width:50%;
+ height:50px;
+color: white;
+margin-left: 10px;
+font-family: math;
+}
+.link{	
+padding:10px;
+font-size:20px;
+color: white;
+}
+.link1{
+padding-top: 69px;
+margin-left: 10px;
+color:black;
+}
+a{
+	text-decoration: none;
+	color: #123456;
+}
+.heading{
+ margin:6PX;
+ padding-left:5px;
+}
+</style>
+<body>
+       <div class="logo">
+       <div >
+	      <img src="library-logo.png" width="60px" height="60px">
+	     </div>
+			<div class="headerdiv">
+					<h2>Aksharvaat </h2>
+			</div>
+			<div class=book>
+				<div class=head ><a href="List" class="link">Books</a></div>
+				<div class=head><a href="List1" class="link">User</a></div>
+				<div class=head><a href="allocationList" class="link">Allocation</a></div>
+				<div class=head><a href="login.html" class="link">Logout</a></div>
+			</div>			
+     </div>
+           
+<div class=link1>
+	<a href="/librarymgmt/home.html">HOME  </a>/ ADD USER
+</div>			
+
+
+<h3 class="heading">ADD USER</h3>
+	<div>
+		
+		<form action="ADD" method="post">
+				<fieldset>
+				<legend><h3>User Details</h3> </legend>
+				<h3>
+					User Name : <input class="size2" type="text" name="name"placeholder=" Enter User Name" required> <br> <br>
+					      Age : <input class="size3"type="number" name="age" placeholder=" Enter Age" required> <br> <br> 
+					 Phone No : <input class="size4" type="tel" name="phone_no"  placeholder=" Enter PhoneNo" required> <br> <br>
+					  Address : <input class="size5" type="text" name="address"placeholder="Enter Address"required><br><br>
+				</h3>
+				<hr>
+				<br>
+				<pre class="btnn1">
+                                                       
+					<input type="submit" value="submit"	class="btn1"><input type="reset" value="reset" class="btn">
+                 </pre>
+			</fieldset>
+		</form>
+
+	</div>
+
+</body>
+
+</html>
